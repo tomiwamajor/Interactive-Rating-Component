@@ -166,9 +166,12 @@ numbers a:hover {
 
 @media only screen and (max-width: 476px) {
   .container {
-    width: 25rem;
+    width: 29rem;
   }
   .rating-paragraph {
     padding-right: 2rem;
+  }
+  .thank-you .header {
+    width: 100%;
   }
 }
