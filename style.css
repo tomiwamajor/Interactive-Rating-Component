@@ -163,3 +163,12 @@ numbers a:hover {
   padding-right: 4rem;
   padding-left: 4rem;
 }
+
+@media only screen and (max-width: 476px) {
+  .container {
+    width: 25rem;
+  }
+  .rating-paragraph {
+    padding-right: 2rem;
+  }
+}
