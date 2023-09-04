@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Rating state start -->
+      <div class="rating">
+        <div class="rating-star">
+          <img class="star" src="./images/icon-star.svg" alt="icon-star" />
+        </div>
+
+        <div class="rating-content">
+          <h2 class="rating-head">How did we do?</h2>
+
+          <p class="rating-paragraph">
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+
+          <div class="rating-numbers">
+            <div class="numbers">
+              <a id="figure" class="star" href="#">1</a>
+            </div>
+            <div class="numbers">
+              <a class="star" href="#">2</a>
+            </div>
+            <div class="numbers">
+              <a class="star" href="#">3</a>
+            </div>
+            <div class="numbers">
+              <a class="star" href="#">4</a>
+            </div>
+            <div class="numbers">
+              <a class="star" href="#">5</a>
+            </div>
+          </div>
+
+          <div class="rating-submit">Submit</div>
+        </div>
+      </div>
+
+      <!-- Rating state end -->
+
+      <!-- Thank you state start -->
+      <div class="thank-you" id="hidden">
+        <img src="./images/illustration-thank-you.svg" alt="thank-you" />
+        <p class="header">You selected out of 5</p>
+
+        <!-- Add rating here -->
+        <div class="thank-paragraph">
+          <p class="head">Thank you!</p>
+          <p class="paragraph">
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, don’t hesitate to get in touch!
+          </p>
+        </div>
+      </div>
+
+      <!-- Thank you state end -->
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

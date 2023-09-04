@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  border-radius: 2rem;
+  background-color: hsla(213, 20%, 18%, 0.226);
+  width: 40rem;
+}
+
+.rating-star {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  position: relative;
+  background-color: hsla(213, 20%, 18%, 0.514);
+}
+
+.star {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.rating-content {
+  margin-left: 2rem;
+}
+
+.rating-head {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.rating-paragraph {
+  color: hsl(217, 12%, 63%);
+  font-size: 1.3rem;
+  line-height: 1.7;
+  padding-right: 7rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+.rating-numbers {
+  margin-right: 2rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.numbers {
+  width: 3rem;
+  height: 3rem;
+  background-color: hsla(213, 20%, 18%, 0.514);
+  border-radius: 50%;
+  position: relative;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.numbers:hover,
+numbers a:hover {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(25, 97%, 53%);
+}
+
+.numbers a {
+  text-decoration: none;
+  color: hsl(217, 12%, 63%);
+  font-weight: 400;
+  transition: all 0.5s;
+}
+
+.numbers a:hover {
+  color: hsl(0, 0%, 100%);
+}
+
+.rating-submit {
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 4rem;
+  margin-right: 2rem;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.rating-submit:hover {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(0, 0%, 100%);
+}
+
+#hidden {
+  display: none;
+}
+
+.thank-you {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.thank-you img {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.thank-you .header {
+  color: hsl(25, 97%, 53%);
+  background-color: hsla(213, 20%, 18%, 0.514);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 50%;
+  font-size: 1.3rem;
+  border-radius: 3rem;
+  margin-bottom: 2rem;
+}
+
+.head {
+  font-size: 3rem;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 1rem;
+}
+
+.paragraph {
+  font-size: 1.3rem;
+  color: hsl(217, 12%, 63%);
+  margin-bottom: 3rem;
+  padding-right: 4rem;
+  padding-left: 4rem;
+}
