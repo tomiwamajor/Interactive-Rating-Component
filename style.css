@@ -79,24 +79,21 @@ body {
   font-size: 1.3rem;
   cursor: pointer;
   transition: all 0.5s;
-}
-
-.numbers:hover,
-numbers a:hover {
-  color: hsl(0, 0%, 100%);
-  background-color: hsl(25, 97%, 53%);
-}
-
-.numbers a {
-  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: hsl(217, 12%, 63%);
-  font-weight: 400;
-  transition: all 0.5s;
 }
 
-.numbers a:hover {
+.numbers:hover {
   color: hsl(0, 0%, 100%);
+  background-color: hsl(217, 12%, 63%);
 }
+
+/* .numbers:active {
+  background-color: hsl(25, 97%, 53%);
+} */
 
 .rating-submit {
   text-align: center;
