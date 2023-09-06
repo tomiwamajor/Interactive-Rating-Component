@@ -88,11 +88,10 @@ body {
 
 .numbers:hover {
   color: hsl(0, 0%, 100%);
-  background-color: hsl(217, 12%, 63%);
+  background-color: hsl(25, 97%, 53%);
 }
 
 /* .numbers:active {
-  background-color: hsl(25, 97%, 53%);
 } */
 
 .rating-submit {

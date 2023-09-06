@@ -7,7 +7,7 @@ let rated = document.querySelector("span");
 for (let i = 0; i < numbers.length; i++) {
   numbers[i].addEventListener("click", function () {
     console.log(`you selected ${i}`);
-    numbers[i].style.backgroundColor = "hsl(25, 97%, 53%)";
+    numbers[i].style.backgroundColor = "hsl(217, 12%, 63%)";
     numbers[i].style.color = "hsl(0, 0%, 100%)";
 
     if (`${i}` === "0") {
